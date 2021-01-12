@@ -34,6 +34,7 @@ LOGIN_REDIRECT_URL = 'dashboard'
 # Application definition
 
 INSTALLED_APPS = [
+    'contacts',
     'accounts',
     'cars',
     'pages',
@@ -152,3 +153,4 @@ MESSAGE_TAGS = {
 
 
 SITE_ID = 1
+
